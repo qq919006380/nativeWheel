@@ -3,6 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>tabs</title>
+  <style>
+    .tabs ol{
+      margin:0;
+      padding: 0;
+      list-style: none;
+    }
+    .tabs-bar>li{
+      width: 30px;
+      display: inline-block;
+    }
+    .tabs-bar>.active{
+        border:1px solid;
+    }
+    .tabs-content>li{
+      display: none;
+    }
+    .tabs-content>li.active{
+      display:block;
+    }
+  </style>
 </head>
 <body>
   <div class='tabs'>
